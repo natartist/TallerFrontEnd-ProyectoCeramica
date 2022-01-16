@@ -1,0 +1,14 @@
+//Reescribir Bootstrap
+$celeste:  #D3F2F2; 
+$celeste-light: #EAFCFC;
+$gray: #818383;
+$rosado: #F0D5EF;
+//asignar a la paleta de colores de bootstrap
+$primary: $celeste;
+$secondary: $celeste-light;
+$dark: $gray;
+$danger: $rosado;
+
+$nav-link-color: $gray;
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";

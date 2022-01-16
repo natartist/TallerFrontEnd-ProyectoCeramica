@@ -1,0 +1,21 @@
+@use "../custom" as *;
+
+main {
+  color: grey;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+ 
+ 
+  h1 {
+    font-family: 'Shadows Into Light', cursive;
+   
+  }
+
+  h2 {
+    font-family: 'Shadows Into Light', cursive;
+  }
+  @include media-breakpoint-up(md) {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}

@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="build/css/style.css">
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Roboto:wght@700;900&family=Shadows+Into+Light&display=swap"
+    rel="stylesheet">
+  <title>Imagenaria Cerámicas</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-primary bg-primary">
+
+    <div class="container">
+      <span>
+        <img class="img-fluid" src="img/logoimagenaria.jpg" alt="logo" width="120">
+        Imagenaria Cerámicas
+      </span>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="float-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="talleres.html">Talleres</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="nosotros.html">Nosotros</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- /Navbar-->
+
+  <!-- Header -->
+  <header class="container header">
+
+    <!-- Carrusel-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <!--mt-3-->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+
+          <img src="img/carrusel1_1.png" class="d-block w-100" alt="maceta pop">
+        </div>
+        <div class="carousel-item">
+
+          <img src="img/carrusel2_1.jpg" class="d-block w-100" alt="Gorditas">
+        </div>
+        <div class="carousel-item">
+
+          <img src="img/carrusel3_1.jpg" class="d-block w-100" alt="Maceta gato">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+    <!--/carrusel-->
+  </header>
+  <!-- /Header-->
+
+  <!-- Main-->
+  <main class="container">
+    <div class="d-flex justify-content-between mt-3 mb-5">
+      <h1>Algunos de nuestros diseños</h1>
+    </div>
+
+    <!--Row de las cards-->
+    <div class="row justify-content-between mt-1">
+
+      <!-- CARDS-->
+      <div class="col-md-6 col-lg-3">
+        <div class="card">
+          <img class="card-img-top" src="img/Pop2.jpg" alt="img maceteros pop">
+          <div class="card-body bg-secondary">
+            <h3 class="card-title fs-5">Línea Cerámica Pop</h3>
+            <p class="card-text descripcion">Conjunto de productos realizados con técnica de baja temperatura y colores
+              sorprendentes.</p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+              Ver más
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="card">
+          <img class="card-img-top" src="img/animal4.png" alt="unicornio">
+          <div class="card-body bg-secondary">
+            <h3 class="card-title fs-5">Línea Animales fantásticos</h3>
+            <p class="card-text descripcion">Objetos decorativos realizados en baja temperatura, con bellas pátinas
+              artesanales.</p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+              Ver más
+            </button>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="card">
+          <img class="card-img-top" src="img/animal2.jpg" alt="zorrito">
+          <div class="card-body bg-secondary">
+            <h3 class="card-title fs-5">Línea zorros</h3>
+            <p class="card-text descripcion">Zorritos de diseño original.Objetos utilitarios y decorativos. Se realizan
+              a pedido.</p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+              Ver más
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="card">
+          <img class="card-img-top" src="img/IMG_9329.jpg" alt="maceta mujeres">
+          <div class="card-body bg-secondary">
+            <h3 class="card-title fs-5">Línea mujeres.</h3>
+            <p class="card-text descripcion">Distintos objetos utilitarios y decorativos con figuras de mujeres, para el
+              jardín y diversos rincones.</p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+              Ver más
+            </button>
+
+          </div>
+        </div>
+      </div>
+      <!--/CARDS-->
+
+      <section class="container text-justify">
+        <h2 class="fs-1 text-center mt-5 mb-5">Sobre la cerámica en baja temperatura</h2>
+        <p class="text-center w-100 fs-5 mx-auto mt-4">
+          La arcilla, la cerámica, nos remonta a estados primitivos donde el hombre encontró por azar una manera de
+          conservar mejor sus alimentos y agua. Luego, con sus manos creó objetos utilitarios para ceremonias y
+          rituales,representando a sus dioses o situaciones de la vida cotidiana. Trabajar con nuestras manos y el barro
+          nos permite reconectarnos con nuestro pasado primitivo y generar distintas piezas que nos hacen experimentar,
+          reflexionar y reflejarnos en cada resultado que logramos. </p>
+
+        <p class="text-center w-100 fs-5 mx-auto mt-4">
+          El trabajo con la arcilla es terapéutico, genera estados de meditación,
+          ayuda a aprender a respetar etapas, a tener paciencia, a ver resultados a mediano y largo plazo, no
+          instantáneos. En una época donde todo es inmediatez, la realización de piezas cerámicas requiere tiempo,
+          concentración, nos ayuda a tomar perspectiva y reconocer en calma las distintas fases de un proceso pausado y
+          reflexivo.</p>
+
+        <p class="text-center w-100 fs-5 mx-auto mt-4">
+          En el proceso de creación en cerámica trabajamos con cuatro elementos:
+          tierra, agua, aire y fuego. Del equilibro que logremos entre ellos dependerá el resultado de las obras que
+          realicemos. Esta experiencia artística puede ser realizada por personas de cualquier edad y no requiere
+          conocimientos previos.</p>
+
+        <p class="text-center w-100 fs-5 mx-auto mt-4">
+          “En la medida en que lograba traducir mis emociones en imágenes, es
+          decir, hallar aquellas imágenes que se ocultaban tras las emociones, sentía una tranquilidad interna.[…] Mi
+          experimento me afirmó en la convicción de lo valioso que es,desde el punto de vista terapéutico, hacer
+          conscientes las imágenes que se hallan detrás de las emociones.”
+          Carl G. Jung.</p>
+
+        <div class="row mt-5">
+          <div class="col mt-2">
+            <figure>
+              <img class="img-fluid" src="img/main2_1.jpg" width="2000" alt="alas">
+            </figure>
+            <p class="text-center fs-3">Tenemos talleres personalizados y grupales, realizamos quema de de cerámica en
+              baja temperatura y hacemos trabajs a pedidos, absolutamente originales.</p>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-center my-5">
+          <a href="talleres.html" class="btn btn-danger text-gray">Más Información</a>
+        </div>
+
+      </section>
+    </div>
+  </main>
+  <!-- /Main-->
+
+  <!-- Footer -->
+  <footer class="bg-primary text-center text-grey">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-danger btn-floating m-1 rounded-circle "
+          href="https://www.facebook.com/holaimagenaria" role="button"><img
+            src="https://img.icons8.com/nolan/64/facebook.png" width=40 />
+        </a>
+        <!-- Twitter -->
+        <a class="btn btn-outline-danger btn-floating m-1 rounded-circle" href="https://twitter.com/holaimagenaria/"
+          role="button"><img src="https://img.icons8.com/doodle/48/000000/twitter--v1.png" width="40" /></a>
+
+        <!-- Instagram -->
+        <a class="btn btn-outline-danger btn-floating m-1 rounded-circle"
+          href="https://www.instagram.com/holaimagenaria/" role="button"><img
+            src="https://img.icons8.com/office/16/000000/instagram-new.png" width="40" /></a>
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Form -->
+      <section class="">
+        <form action="">
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center">
+            <!--Grid column-->
+            <div class="col-auto">
+              <p class="pt-2">Correo electrónico</p>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-5 col-12">
+              <!-- Email input -->
+              <div class="form-outline form-white mb-4">
+                <input type="email" id="form5Example21" class="form-control" />
+
+              </div>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-auto">
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-outline-danger mb-4">
+                Suscríbete
+              </button>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </form>
+      </section>
+      <!-- Section: Form -->
+
+      <!-- Section: Text -->
+      <section class="mb-4">
+        <p>
+          Te mantendremos informado respecto a todos nuestros productos, las novedades semanales, actividades y
+          promociones. Síguenos en nuestras redes sociales y envíanos tus comentarios.
+        </p>
+      </section>
+      <!-- Section: Text -->
+
+
+
+      <!-- Copyright -->
+      <div class="text-center gray p-3" style="background-color: #F0D5EF;">
+        © 2022 Copyright: Natalia Araya G.
+
+      </div>
+      <!-- Copyright -->
+  </footer>
+  <!--/Footer-->
+
+  <!-- Modal1 -->
+  <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Cerámicas Pop</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="card">
+            <img class="card-img-top" src="img/Pop1.jpg" alt="img gorda pop">
+            <div class="card-body">
+              <h3 class="card-title fs-5">Gorda bañista.</h3>
+              <p class="card-text descripcion">Diseño decorativo hecho a mano.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              <button type="button" class="btn btn-primary">Comprar</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Modal2 -->
+  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Animales fantásticos</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="card">
+            <img class="card-img-top" src="img/animal5.jpg" alt="dinosaurio">
+            <div class="card-body">
+              <h3 class="card-title fs-5">Dinosaurio.</h3>
+              <p class="card-text descripcion">Diseño decorativo hecho a mano.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              <button type="button" class="btn btn-primary">Comprar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal3 -->
+  <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Zorritos</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="card">
+            <img class="card-img-top" src="img/animal3.jpg" alt="img plato oso">
+            <div class="card-body">
+              <h3 class="card-title fs-5">Taza zorrito.</h3>
+              <p class="card-text descripcion">Diseño decorativo hecho a mano.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              <button type="button" class="btn btn-primary">Comprar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Modal4 -->
+  <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Mujeres</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="card">
+            <img class="card-img-top" src="img/mujeres2.jpg" alt="figuritas mujeres">
+            <div class="card-body">
+
+              <h3 class="card-title fs-5">Figuritas mujeres.</h3>
+              <p class="card-text descripcion">Diseños originales para el jardín.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              <button type="button" class="btn btn-primary">Comprar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
